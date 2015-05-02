@@ -1,0 +1,11 @@
+{
+  "local": {
+    "title": "local",
+    "database": "",
+    "user": "",
+    "pass": "",
+    "host": "localhost",
+    "url": "http://localhost/www/project/site",
+    "path": "/www/project/site/"
+  }
+}
