@@ -4,8 +4,8 @@
   "description": "Deployment tools for WordPress using grunt-wordpress-deploy",
   "main": "Gruntfile.js",
   "dependencies": {
-    "grunt-wordpress-deploy": "^0.0.6",
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "grunt-wordpress-deploy": "git://github.com/nicolasgalvez/grunt-wordpress-deploy"
   },
   "devDependencies": {},
   "scripts": {
