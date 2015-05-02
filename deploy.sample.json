@@ -5,7 +5,17 @@
     "user": "",
     "pass": "",
     "host": "localhost",
-    "url": "http://localhost/www/project/site",
-    "path": "/www/project/site/"
+    "url": "http://localhost/site",
+    "path": "/path/to/this/folder/site/" // I've set it up so the site subdir is where the files are actually stored. This way I don't have to keep filling out the dang .gitignore.
+  },
+  "staging": {
+    "title": "staging",
+    "database": "",
+    "user": "",
+    "pass": "",
+    "host": "",
+    "url": "http://test.yoursite.com", 
+    "path": "path/on/server/", // include that slash on the end of the path, or it will import the files to ./site/server. ugh.
+    "ssh_host": "username@yoursite.com"
   }
 }
